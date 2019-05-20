@@ -39,6 +39,7 @@ CREATE TABLE CMPSTECH.EAC
   LAST_MOD_DT      DATE                         NOT NULL,
   LAST_MOD_USER    VARCHAR2(30 BYTE)            NOT NULL,
   SUPPLEMENTAL LOG DATA (ALL) COLUMNS
+  test             varchar2(100)                not null)
 )
 TABLESPACE LIBDAT_S
 RESULT_CACHE (MODE DEFAULT)
